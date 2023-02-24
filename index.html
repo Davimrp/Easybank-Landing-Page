@@ -9,61 +9,65 @@
 </head>
 <body>
   <header>
-    <div class="logo">
-      <div class="logo__img">
-        <img src="assets/imgs/logo.svg" alt="logo easynamk">
-      </div>
-    </div>
-
     <nav>
-      <div class="menu-desktop">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Blog</li>
-          <li>Careers</li>
-        </ul>
+      <div class="logo">
+        <div class="logo__img">
+          <img src="assets/imgs/logo.svg" alt="logo easynamk">
+        </div>
       </div>
 
-      <div class="menu-mobile">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Blog</li>
-          <li>Careers</li>
-        </ul>
-      </div>
+        <div class="menu-desktop">
+          <ul>
+            <li><a href="#">Home</a></a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="menu-mobile">
+          <ul>
+            <li><a href="#">Home</a></a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+      <button>Request Invite</button>
     </nav>
-
-    <button>Request Invite</button>
   </header>
 
   <main>
     <section class="section1">
       <div class="section1__left">
-        <h1>Next generation digital banking</h1>
-        <p>Take your financial life online. Your Easybank account will be a one-stop-shop 
-          for spending, saving, budgeting, investing, and much more.</p>
-          <button>Request Invite</button>
+        <div class="section1__left__conteudo">
+          <h1>Next generation digital banking</h1>
+          <p>Take your financial life online. Your Easybank account will be a one-stop-shop
+            for spending, saving, budgeting, investing, and much more.</p>
+            <button>Request Invite</button>
+        </div>
       </div>
 
       <div class="section1__right">
         <div class="section1__right__imagem">
-          <img src="assets/imgs/image-mockups.png" alt="mockups">
+          <img src="assets/imgs/iumagem cortada.png" alt="mockups">
         </div>
       </div>
     </section>
 
     <section class="section2">
-      <h2>Why choose Easybank?</h2>
-      <p>We leverage Open Banking to turn your bank account into your financial hub. Control 
-        your finances like never before.</p>
+      <article>
+        <h2>Why choose Easybank?</h2>
+        <p>We leverage Open Banking to turn your bank account into your financial hub. Control
+          your finances like never before.</p>
+      </article>
 
         <div class="section2__grid-column">
-          <div class="section2__grid-column__box1">
-            <div class="section2__grid-column__box1__imagem">
+          <div class="section2__grid-column__box">
+            <div class="section2__grid-column__box__imagem">
               <img src="assets/imgs/icon-online.svg" alt="icon online">
             </div>
             <h3>Online Banking</h3>
@@ -71,8 +75,8 @@
               wherever you are in the world.</p>
           </div>
 
-          <div class="section2__grid-column__box2">
-            <div class="section2__grid-column__box2__imagem">
+          <div class="section2__grid-column__box">
+            <div class="section2__grid-column__box__imagem">
               <img src="assets/imgs/icon-budgeting.svg" alt="">
             </div>
             <h3>Simple Budgeting</h3>
@@ -80,16 +84,16 @@
               close to hitting your limits.</p>
           </div>
 
-          <div class="section2__grid-column__box3">
-            <div class="section2__grid-column__box3__imagem">
+          <div class="section2__grid-column__box">
+            <div class="section2__grid-column__box__imagem">
               <img src="assets/imgs/icon-onboarding.svg" alt="icon onboard">
             </div>
             <h3>Fast Onboarding</h3>
             <p>We don’t do branches. Open your account in minutes online and start taking control 
               of your finances right away.</p>
           </div>
-          <div class="section2__grid-column__box4">
-            <div class="section2__grid-column__box4__imagem">
+          <div class="section2__grid-column__box">
+            <div class="section2__grid-column__box__imagem">
               <img src="assets/imgs/icon-api.svg" alt="api icon">
             </div>
             <h3>Open API</h3>
@@ -103,78 +107,72 @@
     <section class="section3">
       <h2>Latest Articles</h2>
       <div class="section3__grid-column">
-
-        <div class="section3__grid-column__box1">
-          <div class="section3__grid-column__box1__imagem">
-            <img src="" alt="">
-
+        <div class="section3__grid-column__box">
+          <div class="section3__grid-column__box__imagem">
+            <img src="assets/imgs/image-currency.jpg" alt="dolar photo" id="ajuste-img">
+          </div>
             <span class="by">By Claire Robinson</span>
             <h3>Receive money in any currency with no fees</h3>
             <p>The world is getting smaller and we’re becoming more mobile. So why should you be 
               forced to only receive money in a single …</p>
-          </div>
         </div>
-        <div class="section3__grid-column__box2">
-          <div class="section3__grid-column__box2__imagem">
-            <img src="" alt="">
-
+        <div class="section3__grid-column__box">
+          <div class="section3__grid-column__box__imagem">
+            <img src="assets/imgs/image-restaurant.jpg" alt="restaurant photo">
+          </div>
             <span class="by">By Wilson Hutton</span>
             <h3>Treat yourself without worrying about money</h3>
             <p>Our simple budgeting feature allows you to separate out your spending and set 
               realistic limits each month. That means you …</p>
-          </div>
         </div>
-        <div class="section3__grid-column__box3">
-          <div class="section3__grid-column__box3__imagem">
-            <img src="" alt="">
-
+        <div class="section3__grid-column__box">
+          <div class="section3__grid-column__box__imagem">
+            <img src="assets/imgs/image-plane.jpg" alt="aviao photo">
+          </div>
             <span class="by">By Wilson Hutton</span>
             <h3>Take your Easybank card wherever you go</h3>
             <p>We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
               while you’re abroad. We’ll even show you …</p>
-          </div>
         </div>
-        <div class="section3__grid-column__box4">
-          <div class="section3__grid-column__box4__imagem">
-            <img src="" alt="">
-
+        <div class="section3__grid-column__box">
+          <div class="section3__grid-column__box__imagem">
+            <img src="assets/imgs/image-confetti.jpg" alt="confetti photo">
+          </div>
             <span class="by">By Claire Robinson</span>
             <h3>Our invite-only Beta accounts are now live!</h3>
             <p>After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
               It’s easy to request an invite through the site ...</p>
-          </div>
         </div>
-
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="footer__left">
-        <div class="logo__img">
-          <img src="assets/imgs/logo.svg" alt="logo easynamk">
-        </div>
-        <div class="footer__left__socials">
-          <i class="fa-brands fa-square-facebook"></i>
-          <i class="fa-brands fa-square-youtube"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-pinterest"></i>
-          <i class="fa-brands fa-youtube"></i>
-        </div>
-    </div>
-
-    <div class="footer__mid">
-      <a href="#">About Us</a>
-      <a href="#">Contact</a>
-      <a href="#">Blog</a>
-      <a href="#">Careers</a>
-      <a href="#">Support</a>
-      <a href="#">Privacy Policy</a>
-    </div>
-
-    <div class="footer__right">
-      <button>Request Invite</button>
-      <span>© Easybank. All Rights Reserved</span>
+    <div class="footer">
+      <div class="footer__left">
+          <div class="logo__img">
+            <img src="assets/imgs/logo-branco.svg" alt="logo easynamk">
+          </div>
+          <div class="footer__left__socials">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+      </div>
+      <div class="footer__mid">
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+        <a href="#">Support</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div class="footer__right">
+        <button>Request Invite</button> <br>
+        <span>© Easybank. All Rights Reserved</span>
+      </div>
     </div>
   </footer>
 </body>
