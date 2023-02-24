@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 
+@import url();
+
 *{
     margin: 0;
     padding: 0;
@@ -97,16 +99,17 @@ button{
     background-image: url(../imgs/bg-intro-desktop.svg);
     background-repeat: no-repeat;
     background-position-y: -280px;
+    text-align: end;
 }
 
 .section1__right__imagem{
     width: 100%;
+    
 }
 
 .section1__right__imagem img{
     width: 549px;
     height: 705px;
-    margin-left: 25%;
 }
 
 .section1__left{
@@ -227,7 +230,7 @@ h2{
 
 .footer{
     width: 100vw;
-    height: 150px;
+    height: 180px;
     background-color: var(--titulos);
     display: flex;
 }
@@ -268,8 +271,8 @@ h2{
 }
 
 .footer__right button{
-    width: 55%;
-    height: 38%;
+    width: 60%;
+    height: 35%;
     margin-bottom: 20px;
 }
 
