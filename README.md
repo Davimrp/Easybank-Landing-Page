@@ -42,4 +42,4 @@
 
 
 ### Deploy
-https://davimrp.github.io/Easybank-Landing-Page
+https://portifolio-ficticio.netlify.app
