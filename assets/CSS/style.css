@@ -605,6 +605,11 @@ h3:hover{
 }
 
 @media (max-width: 768px) {
+
+    .section1__right__imagem img{
+        display: none;
+    }
+
     .menu-desktop{
         display: none;
     }
@@ -628,15 +633,6 @@ h3:hover{
         background-size: 1200px;
         text-align: end;
     }
-    
-    .section1__right__imagem{
-        /* width: 100%; */
-    }
-    
-    .section1__right__imagem img{
-
-    }
-    
     .section1__left{
         display: flex;
         width: 100%;
