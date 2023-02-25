@@ -26,15 +26,24 @@
           </ul>
         </div>
 
-        <div class="menu-mobile">
-          <ul>
-            <li><a href="#">Home</a></a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Careers</a></li>
-          </ul>
+        <div class="click--menu-mobile">
+          <i class="fa-solid fa-bars"></i>
         </div>
+
+        <div class="menu-mobile--foco">
+        </div>
+          <div class="menu-mobile">
+            <ul>
+              <div class="menu-mobile--sair">
+                <img src="assets/imgs/icon-close.svg" alt="close icon">
+              </div>
+              <a href="#">Home</a></a>
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+              <a href="#">Blog</a>
+              <a href="#">Careers</a>
+            </ul>
+          </div>
 
       <button>Request Invite</button>
     </nav>
@@ -52,9 +61,10 @@
       </div>
 
       <div class="section1__right">
-        <div class="section1__right__imagem">
-          <img src="assets/imgs/iumagem cortada.png" alt="mockups">
-        </div>
+          <picture class="section1__right__imagem">
+            <source media="(max-width: 768px)" srcset="assets/imgs/cell-responsivo.png">
+            <img src="assets/imgs/iumagem cortada.png" alt="mockups">
+          </picture>
       </div>
     </section>
 
@@ -162,12 +172,12 @@
           </div>
       </div>
       <div class="footer__mid">
-        <a href="#">About Us</a>
-        <a href="#">Contact</a>
-        <a href="#">Blog</a>
-        <a href="#">Careers</a>
-        <a href="#">Support</a>
-        <a href="#">Privacy Policy</a>
+        <ol><a href="#">About Us</a></ol>
+        <ol><a href="#">Contact</a> </ol>
+        <ol><a href="#">Blog</a></ol>
+        <ol><a href="#">Careers</a></ol>
+        <ol><a href="#">Support</a></ol>
+        <ol><a href="#">Privacy Policy</a></ol>
       </div>
       <div class="footer__right">
         <button>Request Invite</button> <br>
@@ -175,5 +185,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="assets/Javascript/main.js"></script>
 </body>
 </html>
