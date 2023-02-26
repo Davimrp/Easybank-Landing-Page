@@ -360,7 +360,18 @@ h3:hover{
 
 /* ---------------Responsivo------------------ */
 
+@media (min-width: 1800px){
+    
+    #ajuste-img{
+        height: 250px;
+    }
+}
+
 @media (min-width: 1600px){
+
+    #ajuste-img{
+        height: 200px;
+    }
 
     footer{
         background-color: var(--titulos);
