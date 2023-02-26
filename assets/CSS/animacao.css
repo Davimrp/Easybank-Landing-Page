@@ -9,6 +9,12 @@
     from{ opacity: 0; }
 }
 
+@keyframes some {
+    from{ opacity: 1; }
+    to{ opacity: 0; }
+}
+
+
 @keyframes apareceDeCima {
     from{ 
         opacity: 0;

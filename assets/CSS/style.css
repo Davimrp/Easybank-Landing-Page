@@ -621,21 +621,24 @@ h3:hover{
     .section1{
         flex-direction: column-reverse;
         width: 100vw;
-        height: 1000px;
+        height: 800px;
+        justify-content: start;
     }
     
     .section1__right{
         width: 100%;
-        height: 100%;
+        max-height: 300px;
+        background-image: url(../imgs/bg-intro-mobile.svg);
         background-repeat: no-repeat;
-        background-position-x: -250px;
-        background-position-y: -430px;
-        background-size: 1200px;
-        text-align: end;
+        background-position-x: -25;
+        background-position-y: 0;
+        background-size: 1000px;
+        margin-bottom: 100px;
     }
     .section1__left{
         display: flex;
         width: 100%;
+        max-height: 300px;
         text-align: center;
         height: 55%;
     }
@@ -703,7 +706,7 @@ h3:hover{
     }
     
     .section3__grid-column{
-        margin: 0px 0 0 90px;
+        margin: 0px 0 0 75px;
         grid-template-columns:  1fr 1fr;
     }
 
@@ -848,10 +851,24 @@ h3:hover{
         height: auto;
     }
 
-
     .section2 h2{
         text-align: center;
-        padding-right: 60px;
+        padding-right: 40px;
+    }
+
+    .section2 article p {
+        width: 70%;
+        margin: auto;
+    }
+
+    .section2 p{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    .section2__grid-column__box__imagem img{
+        margin-left: 25px;
     }
 
     .section2__grid-column{
@@ -859,13 +876,19 @@ h3:hover{
         margin-left: 40px;
     }
 
+    .section3 h2{
+        margin: auto;
+        margin: 0 0 40px 12%;
+    }
+
     .section3__grid-column{
-        grid-template-columns: 1fr;
-        margin-left: 15%;
+        grid-template-columns: 78%;
+        margin: 0;
     }
 
     .section3__grid-column__box{
         margin-bottom: 40px;
+        margin-left: 35%;
     }
 
     .footer{
@@ -893,3 +916,45 @@ h3:hover{
 
 }
 
+@media (max-width: 550px) {
+
+    .section1__right{
+        background-size: 620px;
+    }
+
+    .section2 h2{
+        text-align: center;
+        width: 100%;
+        padding-right: 75px;
+    }
+
+    .section3 h2{
+        margin: 0 0 40px 7%;
+    }
+
+    .section3__grid-column{
+        grid-template-columns: 90%;
+        margin: 0;
+    }
+
+    .section3__grid-column__box{
+        margin-bottom: 40px;
+        margin-left: 24%;
+    }
+}
+
+@media (max-width: 430px) {
+
+    .section1 h1{
+        width: 90%;
+        font-size: 2.2rem;
+    }
+
+    .section1__right{
+        background-size: 550px;
+    }
+
+    .section2 h2{
+        width: 95%;
+    }
+}
