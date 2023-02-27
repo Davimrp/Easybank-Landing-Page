@@ -1,14 +1,10 @@
 # Easybank Landing Page
-
-- ### :construction: Projeto em construção!! :construction:
+![desktop-preview](https://user-images.githubusercontent.com/119756640/220967289-c4ac85c4-3853-49be-b67f-cbc14c0c8c32.jpg)
 
 <br>
 
 ### 📋 Descrição
-
-<hr>
-
-⚙ Funcionalidades
+- Uma Landing Page com intuito de divulgar um Banco Vitural
 
 <hr>
 
@@ -38,7 +34,7 @@
   <hr>
 
 ### 🖱 O Projeto:
-![desktop-preview](https://user-images.githubusercontent.com/119756640/220967289-c4ac85c4-3853-49be-b67f-cbc14c0c8c32.jpg)
+
 
 
 ### Deploy
